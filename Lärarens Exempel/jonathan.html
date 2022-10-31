@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+</head>
+<body>
+    <h1 style="display: inline">En titel</h1>
+    text
+    <div>TEXT</div>
+    <div>TEXT2</div>
+    <h1>Hello <span style="color: blue">world</span></h1>
+    <span></span>
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main style="background-color: lightblue; padding: 5px">main
+        <section style="background-color: red; padding: 5px">
+            Section
+            <div style="background-color: yellow">Div</div>
+        </section>
+    </main>
+    <p>
+        <b>Lorem</b> <small>ipsum dolor</small> sit amet consectetur adipisicing elit. Culpa modi voluptates corporis temporibus, quaerat necessitatibus est. Earum, saepe sapiente. Molestiae exercitationem cupiditate aperiam incidunt rerum, molestias blanditiis quos nesciunt aliquam?
+    </p>
+
+
+    <a href="/comon-html.html" >Om oss</a>
+    <a href="https://google.se" target="_blank">
+        Google
+    </a>
+    <a href="#" target="_top">Toppen av sidan</a>
+
+    <!--Text relaterat-->
+    <p>
+        Hello <strong>world</strong> det här är <i>text</i>
+        <em> och text</em>
+    </p>
+    <p>Den här texten är <s>struken</s></p>
+    <p>Den här texten är <mark>Markerad</mark></p>
+    <ol>
+        <li>Först gör detta</li>
+        <li>Sen gör detta</li>
+    </ol>
+    <ul>
+        <li>gå igenom</li>
+        <li>???</li>
+        <li>Profit</li>
+    </ul>
+    <table style="border: 1px solid #000">
+        <thead>
+            <tr >
+                <th>Namn</th>
+                <th>Ålder</th>
+                <th>Antal syskon</th>
+                <th>Ska raderas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pelle</td>
+                <td>18</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Mari</td>
+                <td>32</td>
+                <td>0</td>
+                <td>Ja</td>
+            </tr>
+        </tbody>
+    </table>
+    <form method="get" action="/index.html" target="_blank">
+        <br>
+        <label for="first-name">
+            Förnamn
+        </label>
+        <br>
+        <input id="first-name" name="first-name" >
+        <br>
+        <br>
+        <input id="last-name" name="last-name" 
+        type="text" placeholder="Efternamn">
+        <br>
+        <br>
+        <input id="phone-number" name="phone-number" 
+        type="tel" placeholder="+46...">
+        <br>
+        <br>
+        <input id="email" name="email" 
+        type="email" placeholder="email">
+        <br>
+        <br>
+        <input type="number">
+
+        <input id="range" name="range" 
+        type="range" max="10" min="0" step="2">
+        <br><br>
+        <input type="color" id="color" name="color">
+        <br><br>
+        <label 
+            style="background-color: green; padding: 15px; color: #fff;" 
+            for="file">
+            Fil
+        </label>
+        <br>
+        <input style="visibility: hidden; opacity: 0; height: 0;" type="file" id="file" name="file">
+
+        <br>
+        <input type="checkbox" id="check-1" name="checkboxes">
+        <input type="checkbox" id="check-2" name="checkboxes">
+        <br>
+        <input type="radio" id="radio-1" name="radios">
+        <input type="radio" id="radio-2" name="radios-2">
+        <input type="radio" id="radio-3" name="radios">
+        <input type="radio" id="radio-4" name="radios-2">
+        <br>
+        <select id="select" name="select">
+            <option value="Värde 1">Val 1</option>
+            <option value="värde 2">Val 2</option>
+        </select>
+
+        <textarea placeholder="Längre text" id="text-area" name="text-area"></textarea>
+        <br>
+        <br>
+        <button type="button">Knapp</button>
+        <button type="reset">Återställ</button>
+        <button type="submit">Skicka in</button>
+        
+
+        <br>
+        
+    </form>
+</body>
+</html>
